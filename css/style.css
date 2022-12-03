@@ -1,0 +1,76 @@
+
+.cnt{
+   display: flex;
+  justify-content: center;
+
+}
+.Dark{ 
+    position: absolute;
+    top: 20%;
+  width: 90%;
+  height: 70%;
+background-image: url(../images/Dark.jpg);
+background-repeat: no-repeat;
+background-size: 500px;
+background-color: rgb(0, 0, 0);
+border-radius: 50px;
+box-shadow: 0px 0px 70px #fca21189;
+
+background-position:center;
+}
+body{
+background-color: rgb(39, 38, 38);
+}
+h2{
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+
+}
+span{
+  color:#fca311;
+  position: relative;
+  left: 10px;
+}
+.i1{
+  position: absolute;
+  width: 300px;
+  border-radius: 20px;
+ left: 50PX;
+  height: 100%;
+  box-shadow: 0px 0px 70px #ffffffac;
+  object-fit:cover;
+animation-name: DR;
+animation-duration: 2s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+cursor: pointer;
+
+}
+.i2{
+  position: absolute;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 20px;
+ right: 50PX;
+  height: 100%;
+  box-shadow: 0px 0px 70px #ffffffac;
+  object-fit:cover;
+animation-name: DR;
+animation-duration: 2s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+  object-fit:cover;
+}
+@keyframes DR{
+  to{box-shadow: 0px 0px 70px #fca21189;}
+
+
+
+}
+
+   
+    
